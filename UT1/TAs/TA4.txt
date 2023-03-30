@@ -1,0 +1,63 @@
+UT1_TA4:
+
+EJERCICIO 1:
+
+Pregunta 1:
+Para que sirven las reuniones preliminares?
+Sirve para conocer:
+- el cliente (establecer una primera impresion)
+- el alcance del problema (objetivos)
+- riesgos
+- viabilidad
+- interesados 
+- costos
+- tiempos
+- Como funciona el negocio
+- Fechas estimadas para entrega de hitos
+- Limitaciones y restricciones
+
+Pregunta 2:
+Que es un caso de uso de negocio (BC)?
+- Proceso que muestra la relacion entre una entidad y una funcionalidad del negocio, surge de un evento de negocio. A partir de los BUC's surgen las historias de usuarios.
+
+Pregunta 4:
+- Conejo: Proyecto chico, corto alcance, tiempo y rapido. Requiere mas interaccion con los interesados. No requiere via de comunicacion formal. Equipos pequeños
+
+- Caballo: Proyecto intermedio. Mas formal que el conejo. Requerimientos escritos. Longitud media. Se puede identificar interesados. Documentacion
+
+- Elefante: Proyecto larga duracion, pesado, requerimientos escritos de manera mas especifica que el caballo, formal, equipos grandes, medio de comunicacion formal. Documentacion.
+
+------------
+
+EJERCICIO 2:
+
+Parte 1:
+- Validacion de existencia de usuario.
+- Validacion de inscripcion existente a la clase.
+- Validacion de si existe la clase.
+- Validacion de recurse.
+- Validacion de cupos libres.
+- Validacion de previas.
+- Validacion de evaluaciones a docentes.
+- Validacion de cuotas al dia.
+- Validacion de deudas de libros.
+
+Parte 2:
+Area de trabajo: Dentro de la UCU: Inscripciones, Tesoreria, Bedelias.
+BE: Inscripcion.
+BUC: 
+- Si el usuario no existe, no se podrá realizar la inscripción.
+- Si el usuario ya está inscripto a la clase, no se podrá realizar la inscripción.
+- Si la clase no existe, no se podrá realizar la inscripción.
+- Si la clase ya fue cursada, se validará si el estudiante tiene o no creditos de recurse disponibles.
+- Si la clase no tiene cupos libres, no se podrá realizar la inscripción.
+- Si el usuario no ha exonerado las previaturas, no se podrá realizar la inscripción.
+- Si el usuario no ha completado las evaluaciones a docentes, no se podrá realizar la inscripción.
+- Si el usuario posee alguna deuda, no se podrá realizar la inscripción.
+- Si el usuario no ha devuelto algun libro que tomó como préstamo, no se podrá realizar la inscripción.
+
+PUC: 
+
+Parte 3:
+
+Parte 4:
